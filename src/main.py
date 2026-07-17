@@ -43,7 +43,7 @@ class App:
         self.root = root
         self.lang = "es"
         root.title(t(self.lang, "title"))
-        self.tech_list = load_technicians()
+        self.tech_list = load_technicians() 
         self.create_widgets()
         self.refresh_actions()
         self.refresh_recent()
